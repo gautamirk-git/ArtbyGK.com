@@ -1,33 +1,26 @@
-import Image from "next/image";
 import Link from "next/link";
 import { paintings } from "@/data/paintings";
 import PaintingCard from "@/components/PaintingCard";
+import HeroBackground from "@/components/HeroBackground";
 
 export default function Home() {
   const featured = paintings.filter((p) => p.featured).slice(0, 3);
-  const hero = paintings[0];
 
   return (
     <div>
       <section className="relative flex h-[70vh] min-h-[420px] w-full items-end overflow-hidden">
-        <Image
-          src={hero.image}
-          alt=""
-          fill
-          priority
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
-        <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-14 text-white">
-          <p className="text-sm uppercase tracking-[0.2em] text-white/80">
-            Original paintings by GK
+        <HeroBackground />
+        <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-14">
+          <p className="text-lg text-foreground/80">
+            Original paintings by{" "}
+            <span className="signature text-3xl text-accent">GK</span>
           </p>
-          <h1 className="mt-3 max-w-xl font-serif text-4xl leading-tight sm:text-5xl">
-            Paintings that hold still and let you look longer.
+          <h1 className="mt-3 max-w-xl font-serif text-4xl leading-tight text-foreground sm:text-5xl">
+            A piece for your wall, and an asset for years to come.
           </h1>
           <Link
             href="/gallery"
-            className="mt-6 inline-block border border-white/70 px-6 py-3 text-sm tracking-wide transition-colors hover:bg-white hover:text-foreground"
+            className="mt-6 inline-block border border-accent px-6 py-3 text-sm tracking-wide text-accent transition-colors hover:bg-accent hover:text-white"
           >
             View the gallery
           </Link>
