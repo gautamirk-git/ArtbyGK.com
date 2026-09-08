@@ -30,3 +30,7 @@ body {
   background: var(--accent);
   color: #fff;
 }
+
+.signature {
+  font-family: "Dancing Script", cursive;
+}
