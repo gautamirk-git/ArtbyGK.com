@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf7f2;
+  --foreground: #221f1c;
+  --muted: #6b6560;
+  --accent: #a8583c;
+  --line: #e4ddd3;
+  --font-display: Georgia, "Iowan Old Style", "Palatino Linotype", "URW Palladio L",
+    serif;
+  --font-body: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-line: var(--line);
+  --font-serif: var(--font-display);
+  --font-sans: var(--font-body);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
