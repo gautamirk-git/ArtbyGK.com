@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 };
 
 // Replace this with your real contact email.
-const CONTACT_EMAIL = "hello@artbygk.com";
+const CONTACT_EMAIL = "g@artbygk.com";
 
 export default function ContactPage() {
   return (
@@ -17,7 +17,7 @@ export default function ContactPage() {
         directly — I read every message myself.
       </p>
 
-      <a
+      
         href={`mailto:${CONTACT_EMAIL}`}
         className="mt-8 inline-block border border-accent px-6 py-3 text-sm tracking-wide text-accent transition-colors hover:bg-accent hover:text-white"
       >
