@@ -23,28 +23,25 @@ export default function AboutPage() {
         <div>
           <h1 className="font-serif text-3xl text-foreground">About the Artist</h1>
           <p className="mt-6 leading-relaxed text-foreground/90">
-            {/*
-              Placeholder bio — replace this paragraph with your own story:
-              how you started painting, what draws you to your subjects, and
-              what you want a visitor to feel standing in front of a piece.
-            */}
-            I&rsquo;m a painter working primarily in oil and acrylic, drawn to
-            quiet landscapes, still life, and the occasional abstract
-            departure. Every piece here is painted by hand, one at a time,
-            in my home studio — this paragraph is a placeholder, so replace
-            it with your own story whenever you&rsquo;re ready.
+            Art was never something I studied in a classroom—it is a gift
+            inherited from my mother. Working primarily in rich oils and
+            vivid acrylics, I&rsquo;m drawn to the calm of quiet landscapes,
+            intimate still lifes, and the occasional expressive abstract.
+            Every single piece is handcrafted, one brushstroke at a time,
+            right from my home studio.
           </p>
           <p className="mt-4 leading-relaxed text-foreground/90">
-            Originals are one-of-a-kind; select paintings are also available
-            as printed reproductions. Browse the{" "}
+            Each original painting is a true one-of-a-kind creation, with
+            select artwork also available as high-quality fine art prints.
+            Take a moment to explore the{" "}
             <Link href="/gallery" className="text-accent hover:underline">
               gallery
-            </Link>{" "}
-            to see current work, or{" "}
+            </Link>
+            , immerse yourself in the collection, and feel free to{" "}
             <Link href="/contact" className="text-accent hover:underline">
-              get in touch
-            </Link>{" "}
-            with any questions.
+              reach out
+            </Link>
+            —I&rsquo;d love to connect with you!
           </p>
         </div>
       </div>
