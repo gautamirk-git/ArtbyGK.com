@@ -5,9 +5,6 @@ export const metadata: Metadata = {
   description: "Get in touch about a painting, print, or commission.",
 };
 
-// Replace this with your real contact email.
-const CONTACT_EMAIL = "g@artbygk.com";
-
 export default function ContactPage() {
   return (
     <div className="mx-auto max-w-2xl px-6 py-16">
@@ -18,10 +15,10 @@ export default function ContactPage() {
       </p>
 
       
-        href={`mailto:${CONTACT_EMAIL}`}
+        href="mailto:g@artbygk.com"
         className="mt-8 inline-block border border-accent px-6 py-3 text-sm tracking-wide text-accent transition-colors hover:bg-accent hover:text-white"
       >
-        Email {CONTACT_EMAIL}
+        Email g@artbygk.com
       </a>
 
       <div className="mt-12 border-t border-line pt-8">
