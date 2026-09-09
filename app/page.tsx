@@ -16,7 +16,8 @@ export default function Home() {
             <span className="signature text-3xl text-accent">GK</span>
           </p>
           <h1 className="mt-3 max-w-xl font-serif text-4xl leading-tight text-foreground sm:text-5xl">
-            A piece for your wall, and an asset for years to come.
+            Paintings that comfort the soul and feel like home — a piece for
+            your wall, and an asset for years to come.
           </h1>
           <Link
             href="/gallery"
