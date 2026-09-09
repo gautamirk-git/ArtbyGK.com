@@ -15,7 +15,7 @@ export default function Home() {
             Original paintings by{" "}
             <span className="signature text-3xl text-accent">GK</span>
           </p>
-          <h1 className="mt-3 max-w-xl font-serif text-4xl leading-tight text-foreground sm:text-5xl">
+          <h1 className="mt-3 max-w-xl font-serif text-4xl leading-tight text-foreground sm:max-w-2xl sm:text-5xl lg:max-w-3xl xl:max-w-4xl">
             Paintings that comfort the soul and feel like home — a piece for
             your wall, and an asset for years to come.
           </h1>
