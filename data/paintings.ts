@@ -220,6 +220,21 @@ export const paintings: Painting[] = [
     sold: false,
     prints: [],
   },
+  {
+    slug: "tidal-suite",
+    title: "Tidal Suite (Four-Piece Collection)",
+    category: "Abstract",
+    medium: "Acrylic pour (Dutch pour technique) on canvas, four-panel series",
+    dimensions: "Four 8 x 8 in canvases",
+    year: 2026,
+    description:
+      "A grouped view of the four-piece Dutch pour series — Tidal Bloom, Ocean Swirl, Sea Glass Drift, and Emerald Current — shown together as a single flowing study in blues, greens, and cream.",
+    image: "/paintings/tidal-suite.jpg",
+    price: null,
+    type: "original",
+    sold: false,
+    prints: [],
+  },
 ];
 
 export function getCategories(): string[] {
