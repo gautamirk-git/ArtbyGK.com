@@ -235,6 +235,21 @@ export const paintings: Painting[] = [
     sold: false,
     prints: [],
   },
+  {
+    slug: "copper-tide",
+    title: "Copper Tide",
+    category: "Abstract",
+    medium: "Acrylic pour (Dutch pour technique) on circular canvas",
+    dimensions: "6 in diameter (circular)",
+    year: 2026,
+    description:
+      "A circular acrylic pour study in teal, gold, and copper tones, painted in August 2026.",
+    image: "/paintings/copper-tide.jpg",
+    price: null,
+    type: "original",
+    sold: true,
+    prints: [],
+  },
 ];
 
 export function getCategories(): string[] {
